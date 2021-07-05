@@ -26,7 +26,7 @@ h4 {
   color: white;
   font-size: 20px;
 }
-section {
+.flexible-con {
   display: flex;
 }
 .top {
@@ -37,4 +37,33 @@ section {
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+.alu {
+  color: orange;
+}
+.Exp {
+  width: 40%;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: 10px 10px 40px rgb(132, 139, 124);
+  border-radius: 10px;
+}
+.flexible-con {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+}
+#pro-one {
+  border-left: 10px solid;
+  border-image: linear-gradient(black, red);
+  border-image-slice: 1;
+}
+#pro-two {
+  border-left: 10px solid;
+  border-image: linear-gradient(black, red);
+  border-image-slice: 1;
+}
+footer {
+  text-align: center;
 }
